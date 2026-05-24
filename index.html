@@ -1,814 +1,469 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mini Rutinas Kids</title>
-
-  <!-- TailwindCSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <!-- Main Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-  <link rel="stylesheet" href="style.css">
-
-
-
-
-</head>
-<body>
-
-<!-- FLOATING WHATSAPP -->
-<a href="#" class="whatsapp-float">
-  <i class="fa-brands fa-whatsapp"></i>
-</a>
-
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-blur py-3">
-  <div class="container">
-
-    <a class="navbar-brand d-flex align-items-center gap-3 fw-bold" href="#">
-      <div class="bg-white rounded-circle shadow-sm d-flex align-items-center justify-content-center" style="width:60px;height:60px;">
-        🌈
-      </div>
-
-      <div>
-        <div style="font-family:'Baloo 2';font-size:28px;color:#4d342f;line-height:1;">
-          Mini Rutinas
-        </div>
-
-        <div style="letter-spacing:5px;color:#a8bc8f;font-weight:800;font-size:14px;">
-          KIDS
-        </div>
-      </div>
-    </a>
-
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-      <i class="fa-solid fa-bars fs-2"></i>
-    </button>
-
-    <div class="collapse navbar-collapse" id="menu">
-
-      <ul class="navbar-nav mx-auto gap-lg-4 text-center">
-        <li class="nav-item">
-          <a class="nav-link fw-bold" href="#">Inicio</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link fw-bold" href="#productos">Productos</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link fw-bold" href="#beneficios">Beneficios</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link fw-bold" href="#como-funciona">¿Cómo funciona?</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link fw-bold" href="#testimonios">Testimonios</a>
-        </li>
-      </ul>
-
-      <a href="#" class="btn-main text-decoration-none d-inline-flex align-items-center gap-2">
-        <i class="fa-brands fa-whatsapp"></i>
-        Pedir ahora
-      </a>
-
-    </div>
-
-  </div>
-</nav>
-
-<!-- HERO -->
-<section class="section-space position-relative overflow-hidden" style="padding-top:180px;">
-
-  <div class="hero-bg"></div>
-
-  <div class="container">
-
-    <div class="row align-items-center g-5">
-
-      <!-- LEFT -->
-      <div class="col-lg-6">
-
-        <div class="d-inline-flex align-items-center gap-2 px-4 py-2 rounded-pill mb-4"
-             style="background:#fff3ed;color:#ff8d70;font-weight:800;">
-          ✨ Diseños inspirados en Waldorf
-        </div>
-
-        <h1 class="hero-title mb-4">
-          Rutinas visuales
-          para niños más
-          <span class="gradient-text">
-            felices e independientes
-          </span>
-        </h1>
-
-        <p class="fs-4 hero-sub text-muted mb-5">
-          Plantillas digitales imprimibles para crear hábitos,
-          fomentar autonomía y disfrutar rutinas divertidas.
-        </p>
-
-        <div class="row g-4 mb-5 mobile-center">
-
-          <div class="col-4">
-            <div class="feature-icon soft-green">
-              <i class="fa-solid fa-download"></i>
-            </div>
-
-            <p class="fw-bold mt-3">
-              Descarga inmediata
-            </p>
-          </div>
-
-          <div class="col-4">
-            <div class="feature-icon soft-orange">
-              <i class="fa-solid fa-print"></i>
-            </div>
-
-            <p class="fw-bold mt-3">
-              Imprime en casa
-            </p>
-          </div>
-
-          <div class="col-4">
-            <div class="feature-icon soft-yellow">
-              <i class="fa-solid fa-star"></i>
-            </div>
-
-            <p class="fw-bold mt-3">
-              Hábitos positivos
-            </p>
-          </div>
-
-        </div>
-
-        <div class="d-flex gap-3 flex-wrap mobile-center">
-
-          <a href="#" class="btn-main text-decoration-none">
-            Ver productos
-          </a>
-
-          <a href="#" class="btn btn-light rounded-pill px-4 py-3 fw-bold shadow-sm">
-            <i class="fa-solid fa-play me-2"></i>
-            Ver demo
-          </a>
-
-        </div>
-
-      </div>
-
-      <!-- RIGHT -->
-      <div class="col-lg-6">
-
-        <div class="card-soft p-4 floating">
-
-          <div class="placeholder-img mobile-image">
-            📸 Placeholder Imagen Hero
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<!-- BENEFITS -->
-<section id="beneficios" class="section-space">
-
-  <div class="container">
-
-    <div class="text-center mb-5">
-
-      <h2 class="section-title mb-3">
-        ¿Por qué te encantará?
-      </h2>
-
-      <p class="text-muted fs-5">
-        Diseñado para ayudar a padres y maestras.
-      </p>
-
-    </div>
-
-    <div class="row g-4">
-
-      <div class="col-lg-3 col-md-6">
-        <div class="card-soft p-5 text-center h-100">
-
-          <div class="feature-icon soft-green mb-4">
-            🌱
-          </div>
-
-          <h4>
-            Autonomía infantil
-          </h4>
-
-          <p class="text-muted">
-            Ayuda a que los niños aprendan hábitos de forma divertida.
-          </p>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Mini Rutinas Kids</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ========================= -->
+    <!-- NAVBAR -->
+    <!-- ========================= -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-blur">
+      <div class="container">
+        <a
+          class="navbar-brand logo-text d-flex align-items-center gap-2"
+          href="/"
+        >
+          <i class="bi bi-rainbow rainbow-icon"></i>
+
+          <span> MiniRutinas </span>
+        </a>
+
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav mx-auto nav-modern">
+            <li class="nav-item">
+              <a class="nav-link active-link" href="#"> Inicio </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#productos"> Productos </a>
+            </li>
+          </ul>
+
+          <a href="#productos" class="btn btn-main"> Ver Productos </a>
         </div>
       </div>
+    </nav>
 
-      <div class="col-lg-3 col-md-6">
-        <div class="card-soft p-5 text-center h-100">
+    <!-- ========================= -->
+    <!-- HERO -->
+    <!-- ========================= -->
 
-          <div class="feature-icon soft-orange mb-4">
-            ❤️
-          </div>
+    <section class="hero-section">
+      <div class="hero-bg-shape"></div>
 
-          <h4>
-            Menos estrés
-          </h4>
-
-          <p class="text-muted">
-            Reduce discusiones y mejora las rutinas diarias.
-          </p>
-
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6">
-        <div class="card-soft p-5 text-center h-100">
-
-          <div class="feature-icon soft-yellow mb-4">
-            🌈
-          </div>
-
-          <h4>
-            Diseño bonito
-          </h4>
-
-          <p class="text-muted">
-            Estilo suave, moderno y amigable para niños.
-          </p>
-
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6">
-        <div class="card-soft p-5 text-center h-100">
-
-          <div class="feature-icon soft-green mb-4">
-            ⏰
-          </div>
-
-          <h4>
-            Ahorra tiempo
-          </h4>
-
-          <p class="text-muted">
-            Descarga, imprime y úsalo inmediatamente.
-          </p>
-
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<!-- PRODUCTS -->
-
-<section id="productos" class="section-space bg-white">
-
-  <div class="container">
-
-    <div class="text-center mb-5">
-
-      <h2 class="section-title">
-        Nuestros productos
-      </h2>
-
-      <p class="text-muted fs-5">
-        Kits digitales listos para imprimir ✨
-      </p>
-
-    </div>
-
-    <!-- GRID PRODUCTOS -->
-    <div class="row g-4" id="productosContainer"></div>
-
-  </div>
-
-</section>
-
-<!-- ========================= -->
-<!-- MODAL DINÁMICO -->
-<!-- ========================= -->
-
-<div class="modal fade" id="productoModal" tabindex="-1">
-
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-
-    <div class="modal-content border-0 rounded-5 overflow-hidden">
-
-      <div class="modal-body p-0">
-
-        <div class="row g-0">
-
-          <!-- IMAGE -->
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <!-- LEFT -->
           <div class="col-lg-6">
+            <span class="hero-badge"> ✨ Rutinas visuales infantiles </span>
 
-            <div id="modalImage"
-                 class="h-100 d-flex align-items-center justify-content-center"
-                 style="
-                 min-height:450px;
-                 background:linear-gradient(135deg,#f6eee7,#efe5db);
-                 ">
+            <h1 class="hero-title mt-4">
+              Ayuda a tus hijos a crear hábitos positivos de forma divertida
+            </h1>
 
-              <div class="text-center">
+            <p class="hero-description">
+              Descarga rutinas visuales imprimibles diseñadas para mejorar la
+              organización, autonomía y disciplina de los niños desde casa.
+            </p>
 
-                <div style="font-size:70px;">🌈</div>
-
-                <p class="fw-bold text-muted">
-                  Placeholder Producto
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <!-- CONTENT -->
-          <div class="col-lg-6">
-
-            <div class="p-5">
-
-              <div class="d-flex justify-content-between align-items-start mb-4">
-
-                <div>
-
-                  <span class="badge rounded-pill px-3 py-2 mb-3"
-                        style="
-                        background:#edf3e5;
-                        color:#7d9367;
-                        font-weight:700;
-                        ">
-                    Producto Digital
-                  </span>
-
-                  <h2 id="modalTitle"
-                      style="
-                      font-family:'Baloo 2';
-                      font-size:42px;
-                      line-height:1;
-                      ">
-                  </h2>
-
-                </div>
-
-                <button type="button"
-                        class="btn-close shadow-none"
-                        data-bs-dismiss="modal">
-                </button>
-
-              </div>
-
-              <p id="modalDescription"
-                 class="text-muted fs-5 mb-4">
-              </p>
-
-              <!-- BENEFITS -->
-              <div class="mb-4">
-
-                <div class="d-flex gap-3 mb-3">
-
-                  <div class="feature-mini">
-                    <i class="fa-solid fa-download"></i>
-                  </div>
-
-                  <div>
-                    <strong>Descarga inmediata</strong>
-                    <p class="text-muted small mb-0">
-                      Recíbelo al instante en PDF.
-                    </p>
-                  </div>
-
-                </div>
-
-                <div class="d-flex gap-3 mb-3">
-
-                  <div class="feature-mini">
-                    <i class="fa-solid fa-print"></i>
-                  </div>
-
-                  <div>
-                    <strong>Listo para imprimir</strong>
-                    <p class="text-muted small mb-0">
-                      Compatible con impresión casera.
-                    </p>
-                  </div>
-
-                </div>
-
-                <div class="d-flex gap-3">
-
-                  <div class="feature-mini">
-                    ⭐
-                  </div>
-
-                  <div>
-                    <strong>Fomenta hábitos positivos</strong>
-                    <p class="text-muted small mb-0">
-                      Ideal para rutinas infantiles.
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <!-- PRICE -->
-              <div class="mb-4">
-
-                <span class="badge-price fs-5"
-                      id="modalPrice">
-                </span>
-
-              </div>
-
-              <!-- BUTTON -->
-              <a id="whatsappButton"
-                 href="#"
-                 target="_blank"
-                 class="btn-main w-100 text-decoration-none d-flex align-items-center justify-content-center gap-3">
-
-                <i class="fa-brands fa-whatsapp fs-4"></i>
-
-                Comprar por WhatsApp
-
+            <div class="hero-buttons">
+              <a href="#productos" class="btn btn-main btn-lg">
+                Ver Productos
               </a>
 
+              <a href="#beneficios" class="btn btn-soft btn-lg"> Saber Más </a>
             </div>
 
+            <div class="hero-stats">
+              <div class="stat-card">
+                <h4>+2K</h4>
+                <p>Familias felices</p>
+              </div>
+
+              <div class="stat-card">
+                <h4>100%</h4>
+                <p>Digital e imprimible</p>
+              </div>
+            </div>
           </div>
 
+          <!-- RIGHT -->
+          <div class="col-lg-6">
+            <div class="hero-image-wrapper floating">
+              <img
+                src="img/hero_bg.png"
+                alt="Mini Rutinas Kids"
+                class="img-fluid hero-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= -->
+    <!-- BENEFICIOS -->
+    <!-- ========================= -->
+
+    <section class="section-space" id="beneficios">
+      <div class="container">
+        <div class="section-title text-center">
+          <span class="section-badge"> Beneficios </span>
+
+          <h2>Diseñado para maestros y padres modernos</h2>
+
+          <p>
+            Todo está pensado para hacer más fácil la rutina diaria de los
+            niños.
+          </p>
         </div>
 
-      </div>
+        <div class="row g-4 mt-5">
+          <div class="col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="bi bi-stars"></i>
+              </div>
 
+              <h4>Fácil de usar</h4>
+
+              <p>Descarga, imprime y úsalo inmediatamente en casa.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="bi bi-emoji-smile"></i>
+              </div>
+
+              <h4>Divertido</h4>
+
+              <p>Diseños visuales que motivan a los niños a seguir hábitos.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="bi bi-printer"></i>
+              </div>
+
+              <h4>Imprimible</h4>
+
+              <p>Compatible con cualquier impresora desde casa.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= -->
+    <!-- PRODUCTOS  -->
+    <!-- ========================= -->
+
+    <section class="section-space bg-light-soft" id="productos">
+      <div class="container">
+        <div class="section-title text-center">
+          <span class="section-badge"> Productos </span>
+
+          <h2>Nuestros recursos más populares</h2>
+        </div>
+
+        <div class="row g-4 mt-5">
+          <!-- PRODUCTO 1 -->
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="product-card"
+              data-title="Tablas de rutinas"
+              data-price="$2.00"
+              data-image="img/producto1169.jpeg"
+              data-description="Plantillas visuales imprimibles para organizar hábitos y actividades diarias en casa o en el aula de forma divertida."
+            >
+              <img
+                src="img/producto1.png"
+                class="product-image"
+                alt="Rutina mañana"
+              />
+
+              <div class="product-content">
+                <h5>Tablas de rutinas</h5>
+
+                <p class="truncate-2">
+                  Plantillas visuales imprimibles para organizar hábitos y
+                  actividades diarias en casa o en el aula de forma divertida.
+                </p>
+
+                <button class="btn btn-main w-100">Ver Más</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCTO 2 -->
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="product-card"
+              data-title="Tarjetas visuales"
+              data-price="$2.00"
+              data-image="img/producto2169.jpeg"
+              data-description="Tarjetas educativas con hábitos y actividades diarias para fomentar autonomía y mejorar las rutinas infantiles."
+            >
+              <img
+                src="img/producto2.png"
+                class="product-image"
+                alt="Rutina mañana"
+              />
+
+              <div class="product-content">
+                <h5>Tarjetas visuales</h5>
+
+                <p class="truncate-2">
+                  Tarjetas educativas con hábitos y actividades diarias para
+                  fomentar autonomía y mejorar las rutinas infantiles.
+                </p>
+
+                <button class="btn btn-main w-100">Ver Más</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCTO  3-->
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="product-card"
+              data-title="Estrellitas de recompensa"
+              data-price="$2.00"
+              data-image="img/producto3169.jpeg"
+              data-description="Insignia imprimible de recompensas con diseños inspirados en naturaleza y estilo Waldorf para motivar hábitos positivos."
+            >
+              <img
+                src="img/producto3.png"
+                class="product-image"
+                alt="Rutina mañana"
+              />
+
+              <div class="product-content">
+                <h5>Estrellitas de recompensa</h5>
+
+                <p class="truncate-2">
+                  Insignia imprimible de recompensas con diseños inspirados en
+                  naturaleza y estilo Waldorf para motivar hábitos positivos.
+                </p>
+
+                <button class="btn btn-main w-100">Ver Más</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCTO 4 -->
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="product-card"
+              data-title="Kits personalizados"
+              data-price="$5.00 - 7.00"
+              data-image="img/producto4169.jpeg"
+              data-description="Kits digitales personalizados con temática Waldorf y naturaleza para adaptar rutinas y hábitos infantiles."
+            >
+              <img
+                src="img/producto4.png"
+                class="product-image"
+                alt="Rutina mañana"
+              />
+
+              <div class="product-content">
+                <h5>Kits personalizados</h5>
+
+                <p class="truncate-2">
+                  Kits digitales personalizados con temática Waldorf y
+                  naturaleza para adaptar rutinas y hábitos infantiles.
+                </p>
+
+                <button class="btn btn-main w-100">Ver Más</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= -->
+    <!-- CTA -->
+    <!-- ========================= -->
+
+    <section class="section-space">
+      <div class="container">
+        <div class="cta-box">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <span class="section-badge"> Descarga ahora </span>
+
+              <h2 class="cta-title mt-4">
+                Empieza hoy mismo a mejorar las rutinas de tus hijos
+              </h2>
+
+              <p class="cta-text">
+                Accede a recursos digitales listos para imprimir y usar.
+              </p>
+
+              <a href="#productos" class="btn btn-main btn-lg">
+                Ver Productos
+              </a>
+            </div>
+
+            <div class="col-lg-6">
+              <img
+                src="img/cta(1).jpeg"
+                class="img-fluid cta-image"
+                alt="Rutinas infantiles"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= -->
+    <!-- MODAL PRODUCTO -->
+    <!-- ========================= -->
+
+    <div class="modal fade custom-modal" id="productModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content modal-premium">
+          <!-- CLOSE -->
+          <button type="button" class="modal-close" data-bs-dismiss="modal">
+            <i class="bi bi-x-lg"></i>
+          </button>
+
+          <div class="row g-0">
+            <!-- IMAGE -->
+            <div class="col-lg-6">
+              <div class="modal-image-wrapper">
+                <img
+                  id="modalImage"
+                  src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1200&auto=format&fit=crop"
+                  class="modal-image"
+                  alt="Producto"
+                />
+              </div>
+            </div>
+
+            <!-- CONTENT -->
+            <div class="col-lg-6">
+              <div class="modal-body-custom">
+                <span class="modal-badge"> Producto Digital </span>
+
+                <h2 id="modalTitle" class="modal-title-custom">
+                  Rutina Infantil
+                </h2>
+
+                <p id="modalDescription" class="modal-description">
+                  Recursos imprimibles premium para mejorar hábitos infantiles.
+                </p>
+
+                <!-- FEATURES -->
+                <div class="modal-features">
+                  <div class="modal-feature">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Descarga inmediata
+                  </div>
+
+                  <div class="modal-feature">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Listo para imprimir
+                  </div>
+
+                  <div class="modal-feature">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Diseño premium
+                  </div>
+                </div>
+
+                <!-- PRICE -->
+                <div class="modal-price" id="modalPrice">$0.00</div>
+
+                <!-- BUTTONS -->
+                <div class="modal-buttons">
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="btn btn-main w-100 buy-whatsapp"
+                  >
+                    Comprar por WhatsApp
+                  </a>
+
+                  <button class="btn btn-soft w-100" data-bs-dismiss="modal">
+                    Seguir Viendo
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-  </div>
-
-</div>
-
-
-
-<!-- HOW -->
-<section id="como-funciona" class="section-space">
-
-  <div class="container">
-
-    <div class="text-center mb-5">
-
-      <h2 class="section-title">
-        ¿Cómo funciona?
-      </h2>
-
-      <p class="text-muted fs-5">
-        Súper simple y rápido.
-      </p>
-
-    </div>
-
-    <div class="position-relative">
-
-      <div class="step-line d-none d-lg-block"></div>
-
-      <div class="row g-5 text-center">
-
-        <div class="col-lg-3">
-
-          <div class="step-number">
-            1
-          </div>
-
-          <div class="feature-icon soft-orange mb-4">
-            <i class="fa-solid fa-cart-shopping"></i>
-          </div>
-
-          <h4>
-            Elige
-          </h4>
-
-          <p class="text-muted">
-            Escoge tu producto favorito.
-          </p>
-
-        </div>
-
-        <div class="col-lg-3">
-
-          <div class="step-number">
-            2
-          </div>
-
-          <div class="feature-icon soft-green mb-4">
-            <i class="fa-solid fa-download"></i>
-          </div>
-
-          <h4>
-            Descarga
-          </h4>
-
-          <p class="text-muted">
-            Recibe el archivo digital al instante.
-          </p>
-
-        </div>
-
-        <div class="col-lg-3">
-
-          <div class="step-number">
-            3
-          </div>
-
-          <div class="feature-icon soft-yellow mb-4">
-            <i class="fa-solid fa-print"></i>
-          </div>
-
-          <h4>
-            Imprime
-          </h4>
-
-          <p class="text-muted">
-            Plastifica y prepara tus rutinas.
-          </p>
-
-        </div>
-
-        <div class="col-lg-3">
-
-          <div class="step-number">
-            4
-          </div>
-
-          <div class="feature-icon soft-orange mb-4">
-            ⭐
-          </div>
-
-          <h4>
-            Disfruta
-          </h4>
-
-          <p class="text-muted">
-            Crea hábitos felices y divertidos.
-          </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<!-- TESTIMONIALS -->
-<section id="testimonios" class="section-space bg-white">
-
-  <div class="container">
-
-    <div class="text-center mb-5">
-
-      <h2 class="section-title">
-        Lo que dicen nuestras familias
-      </h2>
-
-    </div>
-
-    <div class="row g-4">
-
-      <div class="col-lg-4">
-
-        <div class="card-soft p-5 testimonial h-100">
-
-          <div class="text-warning mb-3">
-            ★★★★★
-          </div>
-
-          <p class="fs-5">
-            Desde que usamos las rutinas,
-            mi hija es más independiente y nuestras mañanas son tranquilas.
-          </p>
-
-          <div class="fw-bold mt-4">
-            — Sofía M.
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="col-lg-4">
-
-        <div class="card-soft p-5 testimonial h-100">
-
-          <div class="text-warning mb-3">
-            ★★★★★
-          </div>
-
-          <p class="fs-5">
-            Los diseños son hermosos y súper fáciles de usar.
-          </p>
-
-          <div class="fw-bold mt-4">
-            — Daniela R.
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="col-lg-4">
-
-        <div class="card-soft p-5 testimonial h-100">
-
-          <div class="text-warning mb-3">
-            ★★★★★
-          </div>
-
-          <p class="fs-5">
-            Perfecto para el aula,
-            mis estudiantes aman las tarjetas visuales.
-          </p>
-
-          <div class="fw-bold mt-4">
-            — Miss Valeria
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<!-- CTA -->
-<section class="section-space">
-
-  <div class="container">
-
-    <div class="cta-box rounded-5 p-5 p-lg-6">
-
-      <div class="row align-items-center g-5">
-
-        <div class="col-lg-7">
-
-          <h2 class="display-4 fw-bold mb-4">
-            ¿Lista para transformar las rutinas
-            en momentos felices?
-          </h2>
-
-          <p class="fs-4 opacity-75 mb-5">
-            Descarga productos digitales diseñados
-            con amor para la infancia.
-          </p>
-
-          <a href="#" class="btn btn-light rounded-pill px-5 py-3 fw-bold fs-5">
-            <i class="fa-brands fa-whatsapp me-2"></i>
-            Pedir por WhatsApp
-          </a>
-
-        </div>
-
-        <div class="col-lg-5">
-
-          <div class="placeholder-img border border-white border-3">
-            Placeholder CTA
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<!-- FOOTER -->
-<footer class="pt-5 pb-4">
-
-  <div class="container">
-
-    <div class="row g-5">
-
-      <div class="col-lg-4">
-
-        <h3 class="mb-4">
-          Mini Rutinas Kids
-        </h3>
-
-        <p class="text-muted">
-          Productos digitales imprimibles para una infancia más autónoma,
-          organizada y feliz.
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <footer class="footer">
+      <div class="container text-center">
+        <h4 class="footer-logo">MiniRutinas</h4>
+
+        <p class="footer-text">
+          Recursos digitales imprimibles para familias modernas.
         </p>
 
-      </div>
-
-      <div class="col-lg-2">
-
-        <h5 class="mb-4">
-          Navegación
-        </h5>
-
-        <div class="d-flex flex-column gap-3">
-          <a href="#" class="text-decoration-none text-muted footer-link">Inicio</a>
-          <a href="#" class="text-decoration-none text-muted footer-link">Productos</a>
-          <a href="#" class="text-decoration-none text-muted footer-link">Beneficios</a>
-        </div>
-
-      </div>
-
-      <div class="col-lg-3">
-
-        <h5 class="mb-4">
-          Contacto
-        </h5>
-
-        <div class="d-flex flex-column gap-3 text-muted">
-
-          <div>
-            <i class="fa-brands fa-whatsapp me-2"></i>
-            +593 999 999 999
-          </div>
-
-          <div>
-            <i class="fa-solid fa-envelope me-2"></i>
-            hola@minirutinas.com
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="col-lg-3">
-
-        <h5 class="mb-4">
-          Redes
-        </h5>
-
-        <div class="d-flex gap-3">
-
-          <a href="#" class="btn btn-light rounded-circle shadow-sm">
-            <i class="fa-brands fa-instagram"></i>
+        <div class="footer-socials">
+          <a href="#">
+            <i class="bi bi-instagram"></i>
           </a>
 
-          <a href="#" class="btn btn-light rounded-circle shadow-sm">
-            <i class="fa-brands fa-facebook"></i>
+          <a href="#">
+            <i class="bi bi-facebook"></i>
           </a>
 
-          <a href="#" class="btn btn-light rounded-circle shadow-sm">
-            <i class="fa-brands fa-tiktok"></i>
+          <a href="#">
+            <i class="bi bi-whatsapp"></i>
           </a>
-
         </div>
 
+        <p class="copyright">
+          © 2026 MiniRutinas. Todos los derechos reservados.
+        </p>
       </div>
+    </footer>
 
-    </div>
-
-    
-
-    <hr class="my-5">
-
-    <div class="text-center text-muted">
-      © 2026 Mini Rutinas Kids — Todos los derechos reservados.
-    </div>
-
-  </div>
-
-</footer>
-
-<!-- Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
-</body>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
